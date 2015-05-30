@@ -1,23 +1,26 @@
 @media (max-width: 1150px) {
-  #banner{
+  #ribbon {
+    font-size: 0.25em;
+  }
+  .wrapper .column-wrapper .banner-container #banner {
     width: 5em;
   }
   .title {
     font-size: 0.9em;
   }
-  h1.year {
-    font-size: 3em;
-  }
 }
 
 @media (max-width: 900px) {
-  .title {
-    font-size: 0.65em;
-  }
-  h1.year {
-    font-size: 2em;
-  }
   .row-email-container p {
     font-size: 0.55em;
+  }
+  #ribbon img {
+    display: block;
+    margin: auto;
+  }
+  .wrapper .column-wrapper {
+    .banner-container #banner {
+      width: 4.5em;
+    }
   }
 }

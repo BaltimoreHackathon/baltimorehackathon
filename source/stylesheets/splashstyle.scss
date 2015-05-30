@@ -1,22 +1,16 @@
-@font-face {
-  font-family: "FTAnchorYard";
-  src: url("./fonts/FTAnchorYard-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SailorsFatTatto";
-  src: url("./fonts/Sailors-Fat-Tattoo-Script.ttf") format("truetype");
-}
-
 body{
   background-color: #34e6e4 !important;
 }
 #ribbon {
-  a {
-    color: #730810;
+  font-size: 0.3em;
+  span {
+    a {
+      color: #730810;
+    }
   }
   img {
     vertical-align: middle;
+    width: 4em;
   }
 }
 
@@ -34,36 +28,30 @@ body{
     .boats-div-placeholder {
       height: 210px;
       position: relative;
-      overflow: hidden;
+      // overflow: hidden;
+      #boats {
+      }
     }
     .banner-container {
-      padding: 2em 0 0 0;
+      padding: 1em 0 0 0;
       #banner{
         width: 6em;
       }
     }
-    h1.year {
-      font-family: 'Fredericka the Great', cursive;
-      font-size: 4em;
-      /**For the 1 in 2015**/
-      .one {
-        font-family: 'SailorsFatTatto', cursive;
-        font-size: 1em;
-      }
+    #year-img {
+      width: 50%;
+      display: block;
+      margin: auto;
     }
-    .title {
-      font-family: 'SailorsFatTatto';
-      font-weight: bold;
-      color: black;
-      font-size: 1.2em;
-      .anchors {
-        font-family: 'FTAnchorYard';
-      }
+    #title-img {
+      width: 100%;
+      display: block;
+      margin: 0.5em auto;
     }
     .row-email-container {
       padding-bottom: 1em;
       p {
-        font-size: 0.8em;
+        font-size: 0.5em;
       }
       .email-me .input-group {
         border-top: solid 1px #808080;
