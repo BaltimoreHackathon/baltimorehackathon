@@ -24,3 +24,21 @@
     }
   }
 }
+
+@media (max-width: 550px) {
+  .wrapper .column-wrapper {
+    .banner-container #banner {
+      padding-bottom: 1em;
+      width: 4.3em;
+    }
+  }
+}
+
+@media (max-width: 300px) {
+  .wrapper .column-wrapper {
+    .banner-container #banner {
+      padding-bottom: 1em;
+      width: 4em;
+    }
+  }
+}
