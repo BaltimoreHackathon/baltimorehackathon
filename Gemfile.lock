@@ -138,6 +138,3 @@ DEPENDENCIES
   middleman (~> 3.3.12)
   middleman-deploy (~> 1.0)
   middleman-livereload (~> 3.1.0)
-
-BUNDLED WITH
-   1.10.1

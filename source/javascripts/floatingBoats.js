@@ -1,9 +1,9 @@
 var rate    = 50,
 cloud_files = [ 'pirate_ship.png', 'wave.png', 'pirate_ship.png', 'wave.png' ],
 files       = ['airship-boat.png'],
-floaters    = {}, 
+floaters    = {},
 floatCount = 0,
-wWidth, 
+wWidth,
 wHeight;
 
 function animate() {
@@ -18,8 +18,6 @@ $(window).load(function() {
   iWidth = window.innerWidth;
   for( var i = 50; i > 0; i-- )
     clouds();
-  for( var  i= 5; i > 0; i-- )
-    dirigibles();
   animate();
 });
 
@@ -62,6 +60,7 @@ function create_floater( file, className, x, y, delta ) {
   return elem;
 }
 
+// Not being used
 function dirigibles() {
   var idx = Math.floor( Math.random() * files.length );
   height  = 200,
