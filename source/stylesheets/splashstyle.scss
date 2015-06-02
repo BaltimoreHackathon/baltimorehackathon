@@ -1,6 +1,30 @@
+@font-face {
+  font-family: "FTAnchorYard";
+  src: url("./fonts/FTAnchorYard-Regular.ttf") format("truetype");
+}
+
 body{
   background-color: #34e6e4 !important;
 }
+
+.anchor-font {
+  font-family: "FTAnchorYard";
+  font-size: 0.86em;
+  line-height: 54px;
+}
+
+#mail-btn {
+  pointer-events: none;
+  cursor: default;
+}
+
+#main-submit-btn {
+  background: black;
+  color: #efefef;
+  font-size: 0.3em;
+  width: 10em;
+}
+
 #ribbon {
   font-size: 0.3em;
   span {
@@ -33,13 +57,16 @@ body{
       }
     }
     .banner-container {
-      padding: 1em 0 0 0;
+      position: absolute;
+      top: 1.6em;
+      left: 0;
+      padding: 0;
       #banner{
         width: 6em;
       }
     }
     #year-img {
-      width: 50%;
+      width: 70%;
       display: block;
       margin: auto;
     }
@@ -49,7 +76,6 @@ body{
       margin: 0.5em auto;
     }
     .row-email-container {
-      padding-bottom: 1em;
       p {
         color: black;
         font-size: 0.5em;
