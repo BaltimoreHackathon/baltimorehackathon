@@ -16,6 +16,10 @@ body{
   }
 }
 
+.anchor-font-mobile {
+  font-size: 1.1em;
+}
+
 #mail-btn {
   pointer-events: none;
   cursor: default;
@@ -26,10 +30,11 @@ body{
   color: #efefef;
   font-size: 0.3em;
   width: 10em;
+  border: none;
 }
 
 #ribbon {
-  font-size: 0.3em;
+  font-size: 0.35em;
   span {
     a {
       color: #730810;
@@ -37,7 +42,7 @@ body{
   }
   img {
     vertical-align: middle;
-    width: 4em;
+    width: 3em;
   }
 }
 
@@ -68,16 +73,17 @@ body{
       }
     }
     #year-img {
-      width: 70%;
+      width: 60%;
       display: block;
       margin: auto;
     }
     #title-img {
-      width: 92%;
+      width: 90%;
       display: block;
       margin: 0.5em auto;
     }
     .row-email-container {
+      padding-top: 0.25em;
       p {
         color: black;
         font-size: 0.5em;
@@ -86,6 +92,21 @@ body{
         border-top: solid 1px #808080;
         border-radius: 5px;
       }
+    }
+  }
+}
+
+.mobile-banner {
+  background: #730810;
+  padding-top: 0.01em;
+  padding-bottom: 0.3em;
+  h2 {
+    font-size: 0.7em;
+  }
+  h2:last-of-type {
+    font-family: "FTAnchorYard";
+    a {
+      color: black;
     }
   }
 }

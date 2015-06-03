@@ -38,6 +38,22 @@
       width: 4.3em;
     }
   }
+  .anchor-font-mobile {
+    font-size: 0.9em;
+  }
+  .mobile-banner {
+    h2 {
+      font-size: 0.6em;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .mobile-banner {
+    h2 {
+      font-size: 0.45em;
+    }
+  }
 }
 
 @media (max-width: 300px) {
