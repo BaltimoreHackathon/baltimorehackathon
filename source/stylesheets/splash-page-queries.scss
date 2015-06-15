@@ -16,18 +16,15 @@
   }
   #ribbon img {
     display: block;
-    margin: auto;
+    // margin: auto;
+    &:last-child {
+      float: right;
+    }
   }
   .wrapper .column-wrapper {
     .banner-container #banner {
       width: 4.5em;
     }
-  }
-}
-
-@media (max-width: 760px) {
-  .main-row {
-    padding-top: 3.6em;
   }
 }
 

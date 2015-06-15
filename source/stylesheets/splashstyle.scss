@@ -16,8 +16,17 @@ body{
   }
 }
 
+.location {
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
 .anchor-font-mobile {
   font-size: 1.1em;
+}
+
+#anchor-mobile-img {
+  width: 30%;
 }
 
 #mail-btn {
@@ -42,7 +51,7 @@ body{
   }
   img {
     vertical-align: middle;
-    width: 3em;
+    width: 2.5em;
   }
 }
 
