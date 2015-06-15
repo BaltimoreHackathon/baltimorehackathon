@@ -1,6 +1,6 @@
 var rate    = 50,
 cloud_files = [ 'pirate_ship.png', 'wave.png', 'pirate_ship.png', 'wave.png' ],
-files       = ['airship-boat.png'],
+files       = ['wave.png'],
 floaters    = {}, 
 floatCount = 0,
 wWidth, 
