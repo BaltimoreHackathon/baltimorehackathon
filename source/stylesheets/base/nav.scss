@@ -1,0 +1,16 @@
+.navigation{
+  background-color: $dark-blue-background;
+  width: 100%;
+  .navigation-menu{
+  }
+  a{
+    font-size: 0.6em;
+    margin-left: 1.5em;
+    color: $white;
+    text-decoration: none;
+  }
+  li {
+    text-align: center;
+    display: inline;
+  }
+}

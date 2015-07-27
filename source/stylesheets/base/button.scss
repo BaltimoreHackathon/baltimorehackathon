@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  text-transform: uppercase;
+  background: $medium-blue-link;
+  color: $white;
+  font-size: 0.75em;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: $white;
+    background: $hover-blue-link;
+  }
+}
