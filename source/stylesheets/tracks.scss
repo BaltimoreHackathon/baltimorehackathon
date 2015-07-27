@@ -1,0 +1,31 @@
+.tracks {
+  margin: 0 auto;
+  h3 {
+    color: #000;
+    font-size: 4.0vw;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    li {
+      color: #000;
+      display: inline-block;
+      display: table-cell;
+      float: left;
+      font-family: "OpenSans";
+      font-size: 1.0vw;
+      &.track-links {
+        text-align: center;
+      }
+      a {
+        color: #000;
+        font-family: "FTAnchorYard";
+        font-size: 3.5vw;
+        &:hover {
+          color: #1c8684;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
