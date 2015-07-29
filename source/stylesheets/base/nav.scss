@@ -3,14 +3,55 @@
   width: 100%;
   .navigation-menu{
   }
-  a {
-    font-size: 0.6em;
-    padding: 0.3em;
-    color: $white;
-    text-decoration: none;
-  }
   li {
     text-align: center;
     display: inline;
+    a {
+      font-size: 0.8em;
+      padding: 0.6em;
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .navigation li a {
+    font-size: 0.6em;
+  }
+}
+@media (max-width: 900px) {
+  .navigation li a {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 750px) {
+  #mobile-menu {
+    display: block!important;
+    color: white;
+    padding: 0.1em 0.6em;
+    text-decoration: none;
+    font-size: 0.9em;
+    position: relative;
+    z-index: 1;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .navigation {
+    float: left;
+    ul {
+      display: none;
+      a {
+        position: relative;
+        z-index: 1;
+        float: right;
+        width: 100%;
+        background-color: $dark-blue-background;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
