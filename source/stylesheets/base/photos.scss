@@ -1,12 +1,11 @@
 .photos{
-  $photo-height: 30rem;
   margin-top: 1em;
   padding: 0em;
   .photo{
     vertical-align: middle;
     margin: 0 auto;
     padding: 0em;
-    height: $photo-height;
+    height:256px;
     overflow: hidden;
   }
   .overlay {
@@ -27,11 +26,14 @@
   }
   .photo_1{
     background: url("/images/photos/photo_1.jpg") no-repeat;
+    background-size: 100%;
   }
   .photo_2{
     background: url("/images/photos/photo_2.jpg") no-repeat;
+    background-size: 100%;
   }
   .photo_3{
     background: url("/images/photos/photo_3.jpg") no-repeat;
+    background-size: 100%;
   }
 }

@@ -1,0 +1,23 @@
+.footer{
+  margin: 0;
+  padding: 0;
+  height: 5em;
+  background-color: $dark-blue-background;
+  width: 100%;
+  color: $white;
+  ul{
+    padding-top: 1.0em;
+    margin-bottom: 0;
+  }
+  li {
+    font-size: 0.7em;
+    text-align: center;
+    display: inline;
+  }
+  p{
+    font-size: 0.55em;
+  }
+  .hackathon{
+    margin-top: .5em;
+  }
+}
