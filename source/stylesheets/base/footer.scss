@@ -1,0 +1,36 @@
+.footer{
+  margin: 0;
+  padding: 0;
+  height: 6em;
+  background-color: $dark-blue-background;
+  width: 100%;
+  color: $white;
+  ul{
+    margin-bottom: 0;
+  }
+  li {
+    font-size: 0.7em;
+    text-align: center;
+    display: inline;
+  }
+  p{
+    font-size: 0.55em;
+  }
+  .hackathon{
+    margin-top: .5em;
+  }
+  a:hover {
+    color: #b3ebea;
+  }
+
+  a {
+    color: #1c8684;
+  }
+
+  #footer-text {
+    padding-top: 0.75em;
+    p {
+      font-size: 2rem;
+    }
+  }
+}
