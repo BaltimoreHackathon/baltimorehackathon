@@ -1,7 +1,7 @@
-.photos{
+.photos-container {
   margin-top: 1em;
   padding: 0em;
-  .photo{
+  .photo {
     vertical-align: middle;
     margin: 0 auto;
     padding: 0em;
@@ -12,7 +12,7 @@
     position: relative;
   }
 
-  .overlay:before{
+  .overlay:before {
     position: absolute;
     content:" ";
     top:0;
@@ -24,16 +24,20 @@
     display: block;
     background-color: rgba(20,83,98,0.5);
   }
-  .photo_1{
+  .photo_1 {
     background: url("/images/photos/photo_1.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
   }
-  .photo_2{
+  .photo_2 {
     background: url("/images/photos/photo_2.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
   }
-  .photo_3{
+  .photo_3 {
     background: url("/images/photos/photo_3.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
   }
+
 }
