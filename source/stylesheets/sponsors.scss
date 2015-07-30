@@ -1,12 +1,57 @@
 .sponsors{
-  margin: 2rem 0rem 2rem;
+  #sword-img {
+    padding: 0.6em;
+    img {
+      width: 8em;
+      max-width: 100%;
+    }
+  }
   h3 {
     font-size: 6rem;
   }
   h4 {
-    font-size: 4rem;
+    font-size: 5rem;
+    padding: 0.4em;
   }
-  #sword-img{
-    // margin-top: 2rem;
+  .sponsor-images-container {
+    .img-div {
+      height: 5.5em;
+      img {
+        width: 5em;
+        max-width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .sponsors {
+    .sponsor-images-container {
+      div {
+        height: 4em;
+        img {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .sponsors {
+    h3 {
+      font-size: 4.5rem;
+    }
+    h4 {
+      font-size: 3.5rem;
+      padding: 0.2em;
+    }
+    .sponsor-images-container {
+      div {
+        height: 2em;
+      }
+    }
   }
 }

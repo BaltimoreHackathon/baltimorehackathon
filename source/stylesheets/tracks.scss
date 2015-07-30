@@ -12,26 +12,22 @@
     font-size: 1.2em;
     text-align: center;
   }
-  ul {
-    li {
-      font-family: "OpenSans";
-      &.track-links {
-        text-align: center;
-      }
-      a {
-        color: #000;
-        font-family: "FTAnchorYard";
-        // font-size: 3.5vw;
-        &:hover {
-          color: #1c8684;
-          cursor: pointer;
-        }
+  div {
+    margin:auto;
+    text-align: center;
+    font-family: "OpenSans";
+    a {
+      color: #000;
+      font-family: "FTAnchorYard";
+      // font-size: 3.5vw;
+      &:hover {
+        color: #1c8684;
+        cursor: pointer;
       }
     }
   }
   .tracks-container {
-    list-style: none;
-    li {
+    div {
       color: #000;
       font-family: "OpenSans";
       a {
@@ -70,11 +66,35 @@
       font-size: 0.8em;
     }
     .tracks-container {
-      li {
+      div {
         p {
           font-size: 0.35em;
         }
       }
+    }
+  }
+}
+
+
+@media (max-width: 330px) {
+  .tracks {
+    h3 {
+      font-size: 0.6em;
+    }
+    .tracks-container {
+      div {
+        p {
+          font-size: 0.3em;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .tracks {
+    h3 {
+      font-size: 0.5em;
     }
   }
 }
