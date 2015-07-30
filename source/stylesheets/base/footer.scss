@@ -1,7 +1,7 @@
 .footer{
   margin: 0;
-  padding: 0;
-  height: 6em;
+  padding: 0.4em;
+  height: 6.5em;
   background-color: $dark-blue-background;
   width: 100%;
   color: $white;
@@ -17,7 +17,7 @@
     font-size: 0.55em;
   }
   .hackathon{
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
   a:hover {
     color: #b3ebea;
@@ -28,9 +28,62 @@
   }
 
   #footer-text {
+    width: 80%;
+    margin: auto;
     padding-top: 0.75em;
     p {
       font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .footer {
+    li {
+      font-size: 0.6em;
+    }
+    p {
+      font-size: 0.45em;
+    }
+    #footer-text {
+      p {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    height: 8em;
+    .hackathon {
+      padding: 0.3em;
+    }
+    #footer-text {
+      width: 100%;
+      p {
+        font-size: 1.8rem;
+      }
+    }
+    .hackathon {
+      p {
+        font-size: 0.4em;
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .footer {
+    height: 12em;
+    ul {
+      li {
+        font-size: 0.5em;
+      }
+      .footer-pipe {
+        display: block;
+        font-size: 0.6em;
+      }
     }
   }
 }
