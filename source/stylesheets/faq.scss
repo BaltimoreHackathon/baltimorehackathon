@@ -1,0 +1,27 @@
+.faq-column-wrapper {
+  h1 {
+    font-size: 1.2em;
+    text-decoration: underline;
+  }
+  details {
+    padding: 0.1em 1em;
+    summary {
+      font-weight: bold;
+      font-size: 0.6em;
+    }
+    p, li {
+      text-align: left;
+      font-family: "OpenSans";
+      font-size: 0.4em;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .faq-column-wrapper {
+    details {
+      padding: 0.1em 0;
+      font-size: 0.7em;
+    }
+  }
+}
