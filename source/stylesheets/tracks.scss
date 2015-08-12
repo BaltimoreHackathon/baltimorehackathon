@@ -1,4 +1,5 @@
 .tracks {
+  position: relative;
   background-color: #34e6e4;
   .map-image-div {
     img {
@@ -13,7 +14,6 @@
     text-align: center;
   }
   div {
-    margin:auto;
     text-align: center;
     font-family: "OpenSans";
     a {
@@ -27,6 +27,11 @@
     }
   }
   .tracks-container {
+    h4 {
+      font-size: 0.8em;
+      letter-spacing: 2px;
+      font-family: "FTAnchorYard";
+    }
     div {
       color: #000;
       font-family: "OpenSans";
