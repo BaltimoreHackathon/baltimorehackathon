@@ -1,0 +1,49 @@
+@media (max-width: 1150px) {
+  /* line 2, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  #ribbon {
+    font-size: 0.25em; }
+
+  /* line 5, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .wrapper .column-wrapper .banner-container #banner {
+    width: 5em; }
+
+  /* line 8, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .title {
+    font-size: 0.9em; } }
+@media (max-width: 900px) {
+  /* line 14, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .row-email-container p {
+    font-size: 0.55em; }
+
+  /* line 17, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  #ribbon img {
+    display: block; }
+    /* line 20, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+    #ribbon img:last-child {
+      float: right; }
+
+  /* line 25, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .wrapper .column-wrapper .banner-container #banner {
+    width: 4.5em; } }
+@media (max-width: 550px) {
+  /* line 33, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .wrapper .column-wrapper .banner-container #banner {
+    padding-bottom: 1em;
+    width: 4.3em; }
+
+  /* line 38, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .anchor-font-mobile {
+    font-size: 0.9em; }
+
+  /* line 42, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .mobile-banner h2 {
+    font-size: 0.6em; } }
+@media (max-width: 450px) {
+  /* line 50, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .mobile-banner h2 {
+    font-size: 0.45em; } }
+@media (max-width: 300px) {
+  /* line 58, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/splash-page-queries.scss */
+  .wrapper .column-wrapper .banner-container #banner {
+    padding-bottom: 1em;
+    width: 4em; } }
