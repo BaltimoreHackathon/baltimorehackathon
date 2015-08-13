@@ -38,11 +38,12 @@
 
 @media (max-width: 450px) {
   .sponsors {
+    img {
+      max-width: 200px;
+    }
     .sponsor-images-container {
       div {
         height: 4em;
-        img {
-        }
       }
     }
   }
@@ -60,6 +61,9 @@
     .sponsor-images-container {
       div {
         height: 2em;
+        img {
+          max-width: 200px;
+        }
       }
     }
   }
