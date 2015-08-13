@@ -20,6 +20,7 @@ $white: #FDFCFC;
 // Baltimore Hackathon CSS
 //---------------------------
 
+@import "bootstrap";
 @import "sponsors";
 @import "greystyle";
 @import "splashstyle";
@@ -27,6 +28,7 @@ $white: #FDFCFC;
 @import "tracks";
 @import "colors";
 @import "faq";
+@import "contact";
 @import "base/nav";
 @import "base/footer";
 @import "base/button";

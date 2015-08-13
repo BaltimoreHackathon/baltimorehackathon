@@ -31,16 +31,19 @@
   }
 }
 @media (max-width: 750px) {
-  #mobile-menu {
-    display: block!important;
-    color: white;
-    padding: 0.1em 0.6em;
-    text-decoration: none;
-    font-size: 0.9em;
-    position: relative;
-    z-index: 1;
-    &:hover {
-      text-decoration: underline;
+  .navigation-wrapper {
+    #mobile-menu {
+      display: block!important;
+      visibility: visible!important;
+      color: white;
+      padding: 0.1em 0.6em;
+      text-decoration: none;
+      font-size: 0.9em;
+      position: relative;
+      z-index: 1;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   .navigation {

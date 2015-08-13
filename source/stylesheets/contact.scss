@@ -1,0 +1,28 @@
+.contact {
+  .row-fluid {
+    padding-top: 4em;
+    word-wrap: break-word;
+  }
+  a,i  {
+    font-size: 0.9em;
+    word-wrap: break-word;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 100%;
+  }
+  .slack {
+    width: 2em;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    div div {
+      font-size: 0.6em!important;
+      i {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
