@@ -46,7 +46,7 @@
       font-size: 0.45em; }
   /* line 51, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/tracks.scss */
   .tracks .tressure-chest {
-    margin: 0.9em; }
+    margin: 0.9em 0; }
 
 @media (max-width: 800px) {
   /* line 58, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/tracks.scss */
