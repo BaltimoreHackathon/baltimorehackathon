@@ -29,11 +29,17 @@
     display: inline-block;
     vertical-align: middle;
     float: none;
-}
-  // .sponsor-img {
-  //   margin:10px;
-  //   padding:10px;
-  // }
+    .digital-harbor {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      img {
+        width: 100%!important;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
 }
 
 @media (max-width: 450px) {
@@ -46,6 +52,9 @@
         height: 4em;
       }
     }
+  }
+  .digital-harbor, .digital-harbor img {
+    max-width: 100%!important;
   }
 }
 
@@ -61,9 +70,6 @@
     .sponsor-images-container {
       div {
         height: 2em;
-        img {
-          max-width: 200px;
-        }
       }
     }
   }
