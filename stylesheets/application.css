@@ -6804,7 +6804,7 @@ button.close {
   float: none; }
   /* line 32, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors .sponsor-img .digital-harbor {
-    width: 100%;
+    width: 100% !important;
     margin: 0;
     padding: 0; }
     /* line 36, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
