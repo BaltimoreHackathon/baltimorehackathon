@@ -6805,44 +6805,47 @@ button.close {
   /* line 32, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors .sponsor-img img {
     width: 100%; }
-/* line 36, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 35, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  .sponsors .sponsor-img .moit {
+    width: 75%; }
+/* line 39, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
 .sponsors .digital-harbor {
   margin: 0;
   padding: 0; }
-  /* line 39, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 42, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors .digital-harbor img {
     max-width: 100% !important;
     width: 100% !important;
     margin: 0;
     padding: 0; }
-/* line 46, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+/* line 49, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
 .sponsors .bronze {
   font-family: "OpenSans";
   padding: 0;
   margin: 0;
   color: #C87533;
-  font-size: 1em; }
+  font-size: 1.6em; }
 
 @media (max-width: 450px) {
-  /* line 57, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 60, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors img {
     max-width: 200px; }
-  /* line 61, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 64, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors .sponsor-images-container div {
     height: 4em; }
 
-  /* line 66, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 69, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .digital-harbor, .digital-harbor img {
     max-width: 100% !important; } }
 @media (max-width: 350px) {
-  /* line 73, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 76, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors h3 {
     font-size: 4.5rem; }
-  /* line 76, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 79, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors h4 {
     font-size: 3.5rem;
     padding: 0.2em; }
-  /* line 81, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
+  /* line 84, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/sponsors.scss */
   .sponsors .sponsor-images-container div {
     height: 2em; } }
 /* line 1, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/greystyle.scss */
