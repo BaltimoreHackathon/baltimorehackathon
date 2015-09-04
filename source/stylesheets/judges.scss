@@ -1,0 +1,58 @@
+.judges {
+  position: relative;
+  background-color: #34e6e4;
+  h3 {
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  div {
+    .judge-image-div {
+      img {
+        width: 5em;
+        max-width: 100%;
+        margin-top: 1em;
+        margin-top: 0.5em;
+      }
+    }
+    p {
+      font-size: 0.45em;
+      font-family: "OpenSans";
+      padding: 2em 0.5em;
+      a {
+        text-decoration: underline;
+        &:hover {
+          color: #1c8684;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .judges {
+    h3 {
+      font-size: 0.9em;
+    }
+    div {
+      p {
+       font-size: 0.4em;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .judges {
+    h3 {
+      font-size: 0.6em;
+    }
+
+    div {
+      p {
+        font-size: 0.35em;
+      }
+    }
+  }
+}

@@ -25,19 +25,18 @@
       }
     }
   }
-  .sponsor-img {
+  .digital-harbor {
+    width: 100%;
     display: inline-block;
     vertical-align: middle;
     float: none;
-    .digital-harbor {
-      width: 100%!important;
+    width: 100%!important;
+    margin: 0;
+    padding: 0;
+    img {
+      width: 100%;
       margin: 0;
       padding: 0;
-      img {
-        width: 100%!important;
-        margin: 0;
-        padding: 0;
-      }
     }
   }
 }
