@@ -25,16 +25,20 @@
       }
     }
   }
-  .digital-harbor {
-    width: 100%;
+  .sponsor-img {
     display: inline-block;
     vertical-align: middle;
     float: none;
-    width: 100%!important;
+    img {
+      width: 100%;
+    }
+  }
+  .digital-harbor {
     margin: 0;
     padding: 0;
     img {
-      width: 100%;
+    max-width: 100%!important;
+      width: 100%!important;
       margin: 0;
       padding: 0;
     }
