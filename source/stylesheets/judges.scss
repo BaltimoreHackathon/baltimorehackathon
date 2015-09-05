@@ -9,6 +9,7 @@
   div {
     .judge-image-div {
       img {
+        border-radius: 5px;
         width: 5em;
         max-width: 100%;
         margin-top: 1em;
@@ -20,7 +21,7 @@
       font-family: "OpenSans";
       padding: 2em 0.5em;
       a {
-        text-decoration: underline;
+        color: #112999;
         &:hover {
           color: #1c8684;
           cursor: pointer;
