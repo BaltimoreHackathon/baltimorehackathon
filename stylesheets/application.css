@@ -7179,35 +7179,36 @@ body {
     text-align: center; }
   /* line 11, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
   .judges div .judge-image-div img {
+    border-radius: 5px;
     width: 5em;
     max-width: 100%;
     margin-top: 1em;
     margin-top: 0.5em; }
-  /* line 18, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
+  /* line 19, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
   .judges div p {
     font-size: 0.45em;
     font-family: "OpenSans";
     padding: 2em 0.5em; }
-    /* line 22, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
+    /* line 23, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
     .judges div p a {
-      text-decoration: underline; }
-      /* line 24, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
+      color: #112999; }
+      /* line 25, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
       .judges div p a:hover {
         color: #1c8684;
         cursor: pointer; }
 
 @media (max-width: 800px) {
-  /* line 35, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
+  /* line 36, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
   .judges h3 {
     font-size: 0.9em; }
-  /* line 39, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
+  /* line 40, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
   .judges div p {
     font-size: 0.4em; } }
 @media (max-width: 550px) {
-  /* line 48, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
+  /* line 49, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
   .judges h3 {
     font-size: 0.6em; }
-  /* line 53, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
+  /* line 54, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/judges.scss */
   .judges div p {
     font-size: 0.35em; } }
 /* line 2, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/faq.scss */
