@@ -1,11 +1,13 @@
 .wrapper {
   .rules {
     .rules-list {
-        li {
+      li {
         text-align: left;
         font-family: "OpenSans";
         font-size: 0.4em;
-        }
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+      }
     }
     h1 {
       font-size: 1.2em;
@@ -14,7 +16,7 @@
       text-decoration: underline;
     }
     details {
-      padding: 0.1em 1em;
+      padding: 0.5em 1em;
       summary {
         font-weight: bold;
         font-size: 0.6em;
@@ -28,10 +30,30 @@
   }
 
   @media (max-width: 1000px) {
-    .faq-column-wrapper {
-      details {
-        padding: 0.1em 0;
-        font-size: 0.7em;
+    .rules {
+      .rules-list {
+        li {
+          font-size: 0.35em;
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .rules {
+      .rules-list {
+        li {
+          font-size: 0.3em;
+        }
+      }
+      h1 {
+        font-size: 0.9em;
+      }
+    }
+  }
+  @media (max-width: 350px) {
+    .rules {
+      h1 {
+        font-size: 0.6em;
       }
     }
   }
