@@ -1,0 +1,40 @@
+/* line 4, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+.wrapper .rules .rules-list li {
+  text-align: left;
+  font-family: "OpenSans";
+  font-size: 0.4em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em; }
+/* line 12, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+.wrapper .rules h1 {
+  font-size: 1.2em;
+  padding: 0.2em;
+  margin: 0;
+  text-decoration: underline; }
+/* line 18, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+.wrapper .rules details {
+  padding: 0.5em 1em; }
+  /* line 20, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+  .wrapper .rules details summary {
+    font-weight: bold;
+    font-size: 0.6em; }
+  /* line 24, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+  .wrapper .rules details p, .wrapper .rules details li {
+    text-align: left;
+    font-family: "OpenSans";
+    font-size: 0.4em; }
+@media (max-width: 1000px) {
+  /* line 35, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+  .wrapper .rules .rules-list li {
+    font-size: 0.35em; } }
+@media (max-width: 600px) {
+  /* line 44, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+  .wrapper .rules .rules-list li {
+    font-size: 0.3em; }
+  /* line 48, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+  .wrapper .rules h1 {
+    font-size: 0.9em; } }
+@media (max-width: 350px) {
+  /* line 55, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/rules.scss */
+  .wrapper .rules h1 {
+    font-size: 0.6em; } }
