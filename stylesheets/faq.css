@@ -16,9 +16,12 @@
     text-align: left;
     font-family: "OpenSans";
     font-size: 0.4em; }
+    /* line 18, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/faq.scss */
+    .faq details p a, .faq details li a {
+      color: blue; }
 
 @media (max-width: 1000px) {
-  /* line 24, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/faq.scss */
+  /* line 27, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/faq.scss */
   .faq-column-wrapper details {
     padding: 0.1em 0;
     font-size: 0.7em; } }
