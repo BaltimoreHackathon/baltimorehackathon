@@ -138,7 +138,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   bourbon
-  middleman (~> 3.3.12)
+  middleman
   middleman-deploy (~> 1.0)
   middleman-livereload (~> 3.1.0)
 
