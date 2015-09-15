@@ -12,12 +12,21 @@
       color: $white;
       text-decoration: none;
     }
+    a.eye-catching {
+      color: $dark-blue-background;
+      padding: 0.2em;
+    }
   }
 }
 
 .active {
   text-decoration: underline;
   color: red;
+}
+
+li > .eye-catching {
+  background-color: #ffd209;
+  border-radius: 5px;
 }
 
 @media (max-width: 1300px) {
@@ -64,6 +73,9 @@
         &:hover {
           text-decoration: underline;
         }
+      }
+      a.eye-catching {
+        color: white;
       }
     }
   }
