@@ -7305,6 +7305,28 @@ body {
     .contact div div i {
       margin-top: 1em;
       margin-bottom: 1em; } }
+/* line 2, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_schedule.scss */
+.schedule h2 {
+  text-align: center;
+  text-decoration: underline; }
+/* line 6, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_schedule.scss */
+.schedule ul {
+  font-family: "OpenSans";
+  font-size: 2.5rem;
+  list-style: none;
+  width: 90%;
+  margin: 0 auto; }
+/* line 13, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_schedule.scss */
+.schedule li {
+  text-align: left; }
+/* line 16, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_schedule.scss */
+.schedule span {
+  font-weight: bold; }
+/* line 19, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_schedule.scss */
+.schedule .special-note {
+  font-style: italic;
+  font-weight: bold; }
+
 /* line 1, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
 .navigation {
   background-color: #145362;
@@ -7319,26 +7341,35 @@ body {
       padding: 0.6em;
       color: #FDFCFC;
       text-decoration: none; }
+    /* line 15, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+    .navigation li a.eye-catching {
+      color: #145362;
+      padding: 0.2em; }
 
-/* line 18, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+/* line 22, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
 .active {
   text-decoration: underline;
   color: red; }
 
+/* line 27, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+li > .eye-catching {
+  background-color: #ffd209;
+  border-radius: 5px; }
+
 @media (max-width: 1300px) {
-  /* line 24, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+  /* line 33, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
   .navigation li a {
     font-size: 0.6em; } }
 @media (max-width: 1000px) {
-  /* line 29, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+  /* line 38, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
   .navigation li a {
     font-size: 0.5em; } }
 @media (max-width: 1000px) {
-  /* line 34, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+  /* line 43, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
   .navigation li a {
     font-size: 0.4em; } }
 @media (max-width: 750px) {
-  /* line 40, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+  /* line 49, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
   .navigation-wrapper #mobile-menu {
     display: block !important;
     visibility: visible !important;
@@ -7348,26 +7379,29 @@ body {
     font-size: 0.9em;
     position: relative;
     z-index: 1; }
-    /* line 49, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+    /* line 58, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
     .navigation-wrapper #mobile-menu:hover {
       text-decoration: underline; }
 
-  /* line 54, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+  /* line 63, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
   .navigation {
     float: left; }
-    /* line 56, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+    /* line 65, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
     .navigation ul {
       display: none; }
-      /* line 58, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+      /* line 67, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
       .navigation ul a {
         position: relative;
         z-index: 1;
         float: right;
         width: 100%;
         background-color: #145362; }
-        /* line 64, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+        /* line 73, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
         .navigation ul a:hover {
-          text-decoration: underline; } }
+          text-decoration: underline; }
+      /* line 77, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
+      .navigation ul a.eye-catching {
+        color: white; } }
 /* line 1, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_footer.scss */
 .footer-col {
   margin: 0;
