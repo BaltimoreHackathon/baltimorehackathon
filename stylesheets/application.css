@@ -7351,17 +7351,35 @@ body {
   letter-spacing: 2.5px;
   height: 0.7em;
   color: black; }
+/* line 27, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+.wrapper .winners .led-project {
+  font-size: 0.45em; }
+/* line 30, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+.wrapper .winners p {
+  font-size: 0.5em; }
+  /* line 32, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  .wrapper .winners p b {
+    color: black;
+    font-family: 'OpenSans';
+    font-weight: bold; }
 
 @media (max-width: 730px) {
-  /* line 32, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  /* line 43, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
   .wrapper .winners .first-div {
     padding-top: 2em; }
-  /* line 35, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  /* line 46, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
   .wrapper .winners h1, .wrapper .winners h2 {
     height: auto; }
-  /* line 38, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  /* line 49, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
   .wrapper .winners .winners-img-container {
     padding: 0; } }
+@media (max-width: 350px) {
+  /* line 58, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  .wrapper .winners h1 {
+    font-size: 0.4em; }
+  /* line 61, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  .wrapper .winners h2 {
+    font-size: 0.45em; } }
 /* line 1, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
 .navigation {
   background-color: #145362;
