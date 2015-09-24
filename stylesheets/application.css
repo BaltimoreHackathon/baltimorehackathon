@@ -7327,6 +7327,41 @@ body {
   font-style: italic;
   font-weight: bold; }
 
+/* line 3, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+.wrapper .winners .col-lg-3, .wrapper .winners .col-lg-4 {
+  padding: 1em 0; }
+/* line 6, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+.wrapper .winners .winners-img-container {
+  width: 100%;
+  height: auto;
+  padding: 0.5em; }
+  /* line 10, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  .wrapper .winners .winners-img-container img {
+    width: 8em;
+    max-width: 100%; }
+/* line 15, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+.wrapper .winners h1 {
+  height: 1.5em;
+  font-size: 0.45em; }
+/* line 19, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+.wrapper .winners h2 {
+  font-family: "FTAnchorYard";
+  height: 1em;
+  font-size: 0.55em;
+  letter-spacing: 2.5px;
+  height: 0.7em;
+  color: black; }
+
+@media (max-width: 730px) {
+  /* line 32, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  .wrapper .winners .first-div {
+    padding-top: 2em; }
+  /* line 35, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  .wrapper .winners h1, .wrapper .winners h2 {
+    height: auto; }
+  /* line 38, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/_winners.scss */
+  .wrapper .winners .winners-img-container {
+    padding: 0; } }
 /* line 1, /Users/Sal/dev/projects/baltimore_hackathon/baltimorehackathon/source/stylesheets/base/_nav.scss */
 .navigation {
   background-color: #145362;
