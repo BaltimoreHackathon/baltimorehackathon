@@ -1,0 +1,42 @@
+.wrapper {
+  .winners {
+    .col-lg-3, .col-lg-4 {
+      padding: 1em 0;
+    }
+    .winners-img-container {
+      width: 100%;
+      height: auto;
+      padding: 0.5em;
+      img {
+        width: 8em;
+        max-width: 100%;
+      }
+    }
+    h1 {
+      height: 1.5em;
+      font-size: 0.45em;
+    }
+    h2 {
+      font-family: "FTAnchorYard";
+      height: 1em;
+      font-size: 0.55em;
+      letter-spacing: 2.5px;
+      height: 0.7em;
+      color: black;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .wrapper .winners {
+    .first-div {
+      padding-top: 2em;
+    }
+    h1, h2 {
+      height: auto;
+    }
+    .winners-img-container {
+      padding: 0;
+    }
+  }
+}
