@@ -24,6 +24,17 @@
       height: 0.7em;
       color: black;
     }
+    .led-project {
+      font-size: 0.45em;
+    }
+    p {
+      font-size: 0.5em;
+      b {
+        color: black;
+        font-family: 'OpenSans';
+        font-weight: bold;
+      }
+    }
   }
 }
 
@@ -37,6 +48,19 @@
     }
     .winners-img-container {
       padding: 0;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .wrapper {
+    .winners {
+      h1 {
+        font-size: 0.4em;
+      }
+      h2 {
+        font-size: 0.45em;
+      }
     }
   }
 }
