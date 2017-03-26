@@ -7137,7 +7137,7 @@ body {
         text-indent: -1em; }
         /* line 58, /Users/Sal/dev/projects/baltimorehackathon/baltimorehackathon/source/stylesheets/_tracks.scss */
         .tracks .tracks-container div ul li:before {
-          content: url(./../images/pirate-x.png);
+          content: url(./images/pirate-x.png);
           padding-right: 5px; }
   /* line 66, /Users/Sal/dev/projects/baltimorehackathon/baltimorehackathon/source/stylesheets/_tracks.scss */
   .tracks .tressure-chest {
